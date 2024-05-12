@@ -3,11 +3,14 @@ const mysql = require('mysql2');
 const port = 7500;
 // Variables of the project
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "Dinossauro03",
-    database: "timeline_tyrants_db" // Schema name 
+    host: "ode.h.filess.io",
+    database: "TimelineTyrants2_liquiddeep", // Schema name 
+    port:'3307',
+    user: "TimelineTyrants2_liquiddeep",
+    password: "yourmom",
+
 });
+
 
 // Connect to database and check if it's working. Otherwise we cry with the server.
 connection.connect((err) => {
