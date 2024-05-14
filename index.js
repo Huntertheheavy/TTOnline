@@ -776,7 +776,7 @@ app.post("/CreateMatch",(request,response)=>{
 });
 app.get("/match/:MatchID",(req,res)=>{
     var Match = req.params.MatchID;
-    connection.execute('SELECT cards.CardsName,tileboard.CurrentHealth,cards.Health,tileboard.LocationID FROM tileboard INNER JOIN cards on TileBoard.CardID = cards.CardID Where tileboard.MatchID = 1 and tileboard.CurrentHealth > 0',
+    connection.execute('SELECT cards.CardsName,tileboard.CurrentHealth,cards.Health,tileboard.LocationID FROM tileboard INNER JOIN cards on TileBoard.cardID = cards.cardID Where tileboard.MatchID = 1 and tileboard.CurrentHealth > 0',
     [Match],
         function (err, results, fields) {
         if (err){console.log(err);return;}
