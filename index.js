@@ -779,6 +779,7 @@ app.get("/match/:MatchID",(req,res)=>{
     connection.execute('SELECT cards.CardsName,tileboard.CurrentHealth,cards.Health,tileboard.LocationID FROM TileBoard INNER JOIN Cards on TileBoard.CardID = Cards.CardID Where tileboard.MatchID = 1 and tileboard.CurrentHealth > 0',
     [Match],
         function (err, results, fields) {
+        if (err){console.log(err);return;}
         if (results.length > 0){
                 var responseSend = results
                 CheckWin(res,Match,responseSend)
@@ -803,6 +804,7 @@ app.get("/match/:MatchID/player/:PlayerID",(req,res)=>{
             connection.execute('SELECT * FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
             [Match],
             function (err, results, fields) {
+                if (err){console.log(err);return;}
                 if (results.length > 0){
                     GameStatus = results[0].Match_GameStateID
                     if (Role == 1 && GameStatus == 2){
