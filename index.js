@@ -796,6 +796,7 @@ app.get("/match/:MatchID/player/:PlayerID",(req,res)=>{
     connection.execute('SELECT * FROM timeline_tyrants_db.playermatch WHERE MatchID = ? And UserID = ?',
     [Match,PlayerID],
     function (err, results1, fields) {
+        if (err){console.log(err);return;}
         if (results1.length > 0){
             Role = results1[0].RolesID
             CurrentResources = results1[0].Resources
