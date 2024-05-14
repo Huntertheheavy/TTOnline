@@ -32,7 +32,7 @@ function CheckWin(res,MatchID,responseSend){
                 return;
             }
             if (results.length > 0){
-                connection.execute('UPDATE timeline_tyrants_db.match_ SET Match_GameStateID = ? Where MatchID = ?',
+                connection.execute('UPDATE match_ SET Match_GameStateID = ? Where MatchID = ?',
                     [5,MatchID],
                     function (err, results, fields) {
                     res.send({
@@ -51,7 +51,7 @@ function CheckWin(res,MatchID,responseSend){
                         return;
                     }
                     else if (results.length > 0){
-                        connection.execute('UPDATE timeline_tyrants_db.match_ SET Match_GameStateID = ? Where MatchID = ?',
+                        connection.execute('UPDATE match_ SET Match_GameStateID = ? Where MatchID = ?',
                         [4,MatchID],
                         function (err, results, fields) {
                             if (results){
@@ -81,12 +81,12 @@ function CheckTurn(response,Action,VarTable){
     var GameStatus
     var Match = VarTable[0]
     var PlayerID = VarTable[1]
-    connection.execute('SELECT RolesID FROM timeline_tyrants_db.playermatch WHERE MatchID = ? AND UserID = ?',
+    connection.execute('SELECT RolesID FROM playermatch WHERE MatchID = ? AND UserID = ?',
     [Match,PlayerID],
     function (err, results, fields) {
         if (results.length > 0){
             RoleID = results[0].RolesID;
-            connection.execute('SELECT Match_GameStateID FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+            connection.execute('SELECT Match_GameStateID FROM match_ WHERE MatchID = ?',
             [Match],
             function (err, results, fields) {
                 if (results.length > 0){
@@ -113,7 +113,7 @@ function SelectCard(match,response,VarTable){
     var PosX = VarTable[2]
     var PosY = VarTable[3]
     var LocID
-    connection.execute('SELECT LocationID FROM timeline_tyrants_db.location WHERE PosX = ? AND PosY = ?',
+    connection.execute('SELECT LocationID FROM location WHERE PosX = ? AND PosY = ?',
     [PosX,PosY],
     function (err, results, fields) {
         if (err){
@@ -121,7 +121,7 @@ function SelectCard(match,response,VarTable){
             return
         }else if (results.length > 0){
             LocID = results[0].LocationID
-            connection.execute('SELECT TileBoardID FROM timeline_tyrants_db.tileboard WHERE LocationID = ? and MatchID = ? and UserID = ? and CurrentHealth > 0',
+            connection.execute('SELECT TileBoardID FROM tileboard WHERE LocationID = ? and MatchID = ? and UserID = ? and CurrentHealth > 0',
             [LocID,MatchID,PlayerID],
             function (err, results, fields) {
                 if (err){
@@ -155,7 +155,7 @@ function ResourceActionTax(Match,response,VarTable){
             return
         }else if(results.length > 0){
             ActionCost = results[0].ActionCost
-            connection.execute('SELECT Resources FROM timeline_tyrants_db.playermatch WHERE MatchID = ? and UserID = ?',
+            connection.execute('SELECT Resources FROM playermatch WHERE MatchID = ? and UserID = ?',
                     [Match,VarTable[1]],
                         function (err, results, fields) {
                         if (err){
@@ -165,7 +165,7 @@ function ResourceActionTax(Match,response,VarTable){
                         }else if(results.length > 0){
                             CurrentResources = results[0].Resources
                         if (CurrentResources-(ActionCost*NumOfActions) >= 0){
-                            connection.execute('UPDATE timeline_tyrants_db.playermatch SET Resources = ? Where MatchID = ? and UserID = ?',
+                            connection.execute('UPDATE playermatch SET Resources = ? Where MatchID = ? and UserID = ?',
                             [CurrentResources-(ActionCost*NumOfActions),VarTable[0],VarTable[1]],
                             function(err,results,fields){
                                 if (err){
@@ -195,7 +195,7 @@ function ResourceActionTax(Match,response,VarTable){
 }
 function ResetResource(response,Turn,VarTable){
     console.log(Turn)
-    connection.execute('UPDATE timeline_tyrants_db.playermatch SET Resources = ? Where MatchID = ?',
+    connection.execute('UPDATE playermatch SET Resources = ? Where MatchID = ?',
     [Turn,VarTable[0]],
     function(err,results,fields){
         if (err){
@@ -209,7 +209,7 @@ function ResetResource(response,Turn,VarTable){
 }
 function PlaceCard(response,MatchID,PlayerID,CardID,Location){
     var MaxHealth = 0
-    connection.execute('SELECT Health FROM timeline_tyrants_db.cards WHERE CardID = ?',
+    connection.execute('SELECT Health FROM cards WHERE CardID = ?',
     [CardID],
         function (err, results, fields) {
             if (err){
@@ -254,7 +254,7 @@ function BuyCard(response,MatchID,PlayerID,CardID,Location){
                         return
                     }else if(results.length > 0){
                         UnitCost = results[0].SpawnCost
-                        connection.execute('SELECT Resources FROM timeline_tyrants_db.playermatch WHERE MatchID = ? and UserID = ?',
+                        connection.execute('SELECT Resources FROM playermatch WHERE MatchID = ? and UserID = ?',
                                 [MatchID,PlayerID],
                                     function (err, results, fields) {
                                     if (err){
@@ -264,7 +264,7 @@ function BuyCard(response,MatchID,PlayerID,CardID,Location){
                                     }else if(results.length > 0){
                                         CurrentResources = results[0].Resources
                                     if ((CurrentResources-UnitCost) >= 0){
-                                        connection.execute('UPDATE timeline_tyrants_db.playermatch SET Resources = ? Where MatchID = ? and UserID = ?',
+                                        connection.execute('UPDATE playermatch SET Resources = ? Where MatchID = ? and UserID = ?',
                                         [CurrentResources-UnitCost,MatchID,PlayerID],
                                         function(err,results,fields){
                                             if (err){
@@ -301,7 +301,7 @@ function BuyCard(response,MatchID,PlayerID,CardID,Location){
 function SwitchGameState(response,Turn,Match)
 {
     console.log(Turn)
-    connection.execute('SELECT Match_GameStateID FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+    connection.execute('SELECT Match_GameStateID FROM match_ WHERE MatchID = ?',
     [Match],
     function (err, results, fields) {
         var GameState = 0
@@ -313,7 +313,7 @@ function SwitchGameState(response,Turn,Match)
             }else{
             response.send({"log": "Error: "+err})
             }
-            connection.execute('UPDATE timeline_tyrants_db.match_ SET Match_GameStateID = ? Where MatchID = ?',
+            connection.execute('UPDATE match_ SET Match_GameStateID = ? Where MatchID = ?',
             [GameState,Match],
             function (err, results, fields) {
                 if (err){
@@ -342,12 +342,12 @@ function EndTurn(Match,response,VarTable){
     var GameState = VarTable["GameST"]
     console.log("It passed here")
     if (GameState == 3){
-        connection.execute('SELECT Turn FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+        connection.execute('SELECT Turn FROM match_ WHERE MatchID = ?',
         [Match],
         function (err, results, fields) {
             if (results.length > 0){
             Turn = results[0].Turn + 1
-            connection.execute('UPDATE timeline_tyrants_db.match_ SET Turn = ? Where MatchID = ?',
+            connection.execute('UPDATE match_ SET Turn = ? Where MatchID = ?',
             [Turn,Match],
             function (err, results, fields) {
                 if (err){
@@ -363,7 +363,7 @@ function EndTurn(Match,response,VarTable){
             }
         });
     }else if (GameState == 2){
-        connection.execute('SELECT Turn FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+        connection.execute('SELECT Turn FROM match_ WHERE MatchID = ?',
         [Match],
         function (err, results, fields) {
             if (results.length > 0){
@@ -385,7 +385,7 @@ function CardCheck(Match,response,VarTable){
     var PosX = VarTable[2]
     var PosY = VarTable[3]
     var CardID = VarTable[4]
-    connection.execute('SELECT Match_GameStateID FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+    connection.execute('SELECT Match_GameStateID FROM match_ WHERE MatchID = ?',
     [MatchID],
     function (err, results, fields) {
         if (results.length == 0){
@@ -393,7 +393,7 @@ function CardCheck(Match,response,VarTable){
             return
         }
         GameStatus = results[0].Match_GameStateID
-        connection.execute('SELECT LocationID FROM timeline_tyrants_db.location WHERE PosX = ? and PosY = ?',
+        connection.execute('SELECT LocationID FROM location WHERE PosX = ? and PosY = ?',
         [PosX, PosY],
         function (err, results, fields) {
         if (results.length == 0){
@@ -401,7 +401,7 @@ function CardCheck(Match,response,VarTable){
             return;
         }
         Location = results[0].LocationID
-            connection.execute('SELECT TileBoardID FROM timeline_tyrants_db.tileboard WHERE LocationID = ? and MatchID = ?',
+            connection.execute('SELECT TileBoardID FROM tileboard WHERE LocationID = ? and MatchID = ?',
             [Location, MatchID],
             function (err, results, fields) {
             if (results.length == 0){
@@ -431,7 +431,7 @@ function MoveCard(Match,response,VarTable){
         response.send({"log":"Cheater! Defender can't move their units"})
         return
     }
-    connection.execute('SELECT LocationID FROM timeline_tyrants_db.location WHERE PosX = ? AND PosY = ?',
+    connection.execute('SELECT LocationID FROM location WHERE PosX = ? AND PosY = ?',
         [VarTable[2],VarTable[3]],
         function (err, results, fields) {
             if (err){
@@ -439,7 +439,7 @@ function MoveCard(Match,response,VarTable){
                 return
             }else if (results.length > 0){
                 LocID = results[0].LocationID
-                connection.execute('SELECT * FROM timeline_tyrants_db.tileboard WHERE LocationID = ? and CurrentHealth > 0',
+                connection.execute('SELECT * FROM tileboard WHERE LocationID = ? and CurrentHealth > 0',
                 [LocID],
                 function (err, results, fields) {
                     if (err){
@@ -449,7 +449,7 @@ function MoveCard(Match,response,VarTable){
                         response.send({"log":"Can't place a unit in top of each other."});
                         return
                     }else{
-                        connection.execute('UPDATE timeline_tyrants_db.tileboard SET LocationID = ? WHERE TileBoardID = ?',
+                        connection.execute('UPDATE tileboard SET LocationID = ? WHERE TileBoardID = ?',
                         [LocID,VarTable["Unit"]],
                         function (err, results, fields) {
                             if (err){
@@ -497,7 +497,7 @@ function Explosion(response,TargetLocID,VarTable){
                                     return
                                 }else if(results2.length > 0){
                                     TargetHealth = results2 - ExplosionDamage 
-                                    connection.execute('UPDATE timeline_tyrants_db.tileboard SET CurrentHealth = ? WHERE TileBoardID = ? and CurrentHealth > 0',
+                                    connection.execute('UPDATE tileboard SET CurrentHealth = ? WHERE TileBoardID = ? and CurrentHealth > 0',
                                         [TargetHealth,TargetExplosiveID],
                                         function (err, results3, fields) {
                                             if (err){
@@ -538,7 +538,7 @@ function AttackTarget(response,TargetLocID,TargetHealth,VarTable){
             }else if (results.length > 0){
                 Damage = results[0].Damage
                 TargetHealth = TargetHealth - Damage
-                    connection.execute('UPDATE timeline_tyrants_db.tileboard SET CurrentHealth = ? WHERE TileBoardID = ? and CurrentHealth > 0',
+                    connection.execute('UPDATE tileboard SET CurrentHealth = ? WHERE TileBoardID = ? and CurrentHealth > 0',
                     [TargetHealth,TargetLocID],
                     function (err, results, fields) {
                     if (err){
@@ -583,7 +583,7 @@ function CheckTarget(Match,response,VarTable){
     var TargetLocID 
     var AttackType
 
-    connection.execute('SELECT LocationID FROM timeline_tyrants_db.location WHERE PosX = ? AND PosY = ?',
+    connection.execute('SELECT LocationID FROM location WHERE PosX = ? AND PosY = ?',
     [TargetPosX,TargetPosY],
     function (err, results, fields) {
         if (err){
@@ -794,14 +794,14 @@ app.get("/match/:MatchID/player/:PlayerID",(req,res)=>{
     var GameStatus = 0;
     var CurrentResources = 0;
     var YourTurn = false;
-    connection.execute('SELECT * FROM timeline_tyrants_db.playermatch WHERE MatchID = ? And UserID = ?',
+    connection.execute('SELECT * FROM playermatch WHERE MatchID = ? And UserID = ?',
     [Match,PlayerID],
     function (err, results1, fields) {
         if (err){console.log(err);return;}
         if (results1.length > 0){
             Role = results1[0].RolesID
             CurrentResources = results1[0].Resources
-            connection.execute('SELECT * FROM timeline_tyrants_db.match_ WHERE MatchID = ?',
+            connection.execute('SELECT * FROM match_ WHERE MatchID = ?',
             [Match],
             function (err, results, fields) {
                 if (err){console.log(err);return;}
