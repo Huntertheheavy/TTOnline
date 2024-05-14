@@ -22,7 +22,7 @@ app.listen(port, () =>{
 // Funcs
 
 function CheckWin(res,MatchID,responseSend){
-    connection.execute('SELECT tileboardID FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where CardRoleID = 2 And tileboard.MatchID = ? And LocationID IN (1, 7, 13, 19)',
+    connection.execute('SELECT tileboardID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where CardRoleID = 2 And tileboard.MatchID = ? And LocationID IN (1, 7, 13, 19)',
     [MatchID],
         function (err, results, fields) {
             if (err) {
@@ -147,7 +147,7 @@ function ResourceActionTax(Match,response,VarTable){
     var NumOfActions = VarTable["NumOfActions"]
     var CurrentResources
     var ActionCost = 0
-    connection.execute('SELECT cards.ActionCost FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where tileboardID = ?',
+    connection.execute('SELECT cards.ActionCost FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where tileboardID = ?',
     [VarTable["Unit"]],
     function (err, results, fields) {
         if (err){
@@ -471,7 +471,7 @@ function MoveCard(Match,response,VarTable){
 
 function Explosion(response,TargetLocID,VarTable){
     var ExplosionDamage = 0
-    connection.execute('SELECT cards.Damage, cards.CardID FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where tileboardID = ?',
+    connection.execute('SELECT cards.Damage, cards.CardID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where tileboardID = ?',
     [TargetLocID],
     function (err, results, fields) {
             if (err){
@@ -529,7 +529,7 @@ function Explosion(response,TargetLocID,VarTable){
 }
 function AttackTarget(response,TargetLocID,TargetHealth,VarTable){
     var Damage = 1
-    connection.execute('SELECT cards.Damage, cards.CardID FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where tileboardID = ?',
+    connection.execute('SELECT cards.Damage, cards.CardID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where tileboardID = ?',
     [VarTable["Unit"]],
     function (err, results, fields) {
             if (err){
@@ -546,7 +546,7 @@ function AttackTarget(response,TargetLocID,TargetHealth,VarTable){
                         return
                     }else if(results){
                         if (TargetHealth <= 0){
-                            connection.execute('SELECT cards.AttackTypeID FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where tileboardID = ?',
+                            connection.execute('SELECT cards.AttackTypeID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where tileboardID = ?',
                             [TargetLocID],
                             function (err, results, fields) {
                                 if (results[0].AttackTypeID == 3){
@@ -592,7 +592,7 @@ function CheckTarget(Match,response,VarTable){
         }else if (results.length > 0){
             TargetLocID = results[0].LocationID
             TargetHealth = 0
-            connection.execute('SELECT cards.AttackTypeID FROM tileboard INNER JOIN Cards on tileboard.CardID = Cards.CardID Where tileboardID = ?',
+            connection.execute('SELECT cards.AttackTypeID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where tileboardID = ?',
             [VarTable["Unit"]],
             function (err, results, fields) {
                 if (results.length > 0){
