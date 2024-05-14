@@ -321,11 +321,11 @@ function SwitchGameState(response,Turn,Match)
                     return
                 }else{
                     console.log(GameState)
-                    if (GameState == 3){
+                    if (GameState == 2){
                         console.log(Turn)
                         ResetResource(response,Turn,Match)
-                    }else if (GameState == 2){
-                        response.send({"log":"Turn End I guess :3"})
+                    }else if (GameState == 3){
+                        response.send({"log":"Turn Ended"})
                         return
                     }
 
@@ -401,7 +401,7 @@ function CardCheck(Match,response,VarTable){
             return;
         }
         Location = results[0].LocationID
-            connection.execute('SELECT tileboardID FROM tileboard WHERE LocationID = ? and MatchID = ?',
+            connection.execute('SELECT tileboardID FROM tileboard WHERE LocationID = ? and MatchID = ? and CurrentHealth > 0',
             [Location, MatchID],
             function (err, results, fields) {
             if (results.length == 0){
