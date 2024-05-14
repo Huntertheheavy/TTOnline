@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
     host: "ode.h.filess.io",
     user: "TimelineTyrants2_liquiddeep",
-    password: "Dinossauro03",
+    password: "yourmom",
     database: "TimelineTyrants2_liquiddeep", // Schema name 
     port: "3307"
 });
