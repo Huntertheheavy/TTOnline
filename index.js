@@ -19,7 +19,7 @@ app.listen(port, () =>{
     console.log("Server is running on localhost " + port);
 });
 
-// Funcs
+// Functions
 
 function CheckWin(res,MatchID,responseSend){
     connection.execute('SELECT tileboardID FROM tileboard INNER JOIN cards on tileboard.CardID = cards.CardID Where CardRoleID = 2 And tileboard.MatchID = ? And LocationID IN (1, 7, 13, 19)',
