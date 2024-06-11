@@ -1,0 +1,393 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "www/game/assets/ActionCostIcon.png",
+                "type": "image",
+                "key": "ActionCostIcon"
+            },
+            {
+                "url": "www/game/assets/AttackBar.png",
+                "type": "image",
+                "key": "AttackBar"
+            },
+            {
+                "url": "www/game/assets/AttackShop.png",
+                "type": "image",
+                "key": "AttackShop"
+            },
+            {
+                "url": "www/game/assets/BackgroundAsset.png",
+                "type": "image",
+                "key": "BackgroundAsset"
+            },
+            {
+                "url": "www/game/assets/BarbedWall.png",
+                "type": "image",
+                "key": "BarbedWall"
+            },
+            {
+                "url": "www/game/assets/BarbedWallIcon.png",
+                "type": "image",
+                "key": "BarbedWallIcon"
+            },
+            {
+                "url": "www/game/assets/bg1.png",
+                "type": "image",
+                "key": "bg"
+            },
+            {
+                "url": "www/game/assets/Title Screen/bg1.png",
+                "type": "image",
+                "key": "bg1"
+            },
+            {
+                "url": "www/game/assets/Title Screen/blue thingy.png",
+                "type": "image",
+                "key": "blue thingy"
+            },
+            {
+                "url": "www/game/assets/buttonclicked.png",
+                "type": "image",
+                "key": "buttonclicked"
+            },
+            {
+                "url": "www/game/assets/buttonunclicked.png",
+                "type": "image",
+                "key": "buttonunclicked"
+            },
+            {
+                "url": "www/game/assets/CancelButton1.png",
+                "type": "image",
+                "key": "CancelButton1"
+            },
+            {
+                "url": "www/game/assets/CancelButton2.png",
+                "type": "image",
+                "key": "CancelButton2"
+            },
+            {
+                "url": "www/game/assets/CavemanIcon.png",
+                "type": "image",
+                "key": "CavemanIcon"
+            },
+            {
+                "url": "www/game/assets/CavemanUnit.png",
+                "type": "image",
+                "key": "CavemanUnit"
+            },
+            {
+                "url": "www/game/assets/DaggerGuy.png",
+                "type": "image",
+                "key": "DaggerGuy"
+            },
+            {
+                "url": "www/game/assets/DaggerGuyIcon.png",
+                "type": "image",
+                "key": "DaggerGuyIcon"
+            },
+            {
+                "url": "www/game/assets/DefenseBar.png",
+                "type": "image",
+                "key": "DefenseBar"
+            },
+            {
+                "url": "www/game/assets/ExplodingGuy.png",
+                "type": "image",
+                "key": "ExplodingGuy"
+            },
+            {
+                "url": "www/game/assets/ExplodingGuyIcon.png",
+                "type": "image",
+                "key": "ExplodingGuyIcon"
+            },
+            {
+                "url": "www/game/assets/ExplosiveDamage.png",
+                "type": "image",
+                "key": "ExplosiveDamage"
+            },
+            {
+                "url": "www/game/assets/Title Screen/fight.png",
+                "type": "image",
+                "key": "fight"
+            },
+            {
+                "url": "www/game/assets/Title Screen/fight2.png",
+                "type": "image",
+                "key": "fight2"
+            },
+            {
+                "url": "www/game/assets/happycaveman.png",
+                "type": "image",
+                "key": "happycaveman"
+            },
+            {
+                "url": "www/game/assets/happysniper.png",
+                "type": "image",
+                "key": "happysniper"
+            },
+            {
+                "url": "www/game/assets/HealthIcon.png",
+                "type": "image",
+                "key": "HealthIcon"
+            },
+            {
+                "url": "www/game/assets/Title Screen/iade.png",
+                "type": "image",
+                "key": "iade"
+            },
+            {
+                "url": "www/game/assets/Knight.png",
+                "type": "image",
+                "key": "Knight"
+            },
+            {
+                "url": "www/game/assets/KnightIcon.png",
+                "type": "image",
+                "key": "KnightIcon"
+            },
+            {
+                "url": "www/game/assets/LaserCanonIcon.png",
+                "type": "image",
+                "key": "LaserCanonIcon"
+            },
+            {
+                "url": "www/game/assets/LazerCanon.png",
+                "type": "image",
+                "key": "LazerCanon"
+            },
+            {
+                "url": "www/game/assets/Login.png",
+                "type": "image",
+                "key": "Login"
+            },
+            {
+                "url": "www/game/assets/Title Screen/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "www/game/assets/MechanizedMech.png",
+                "type": "image",
+                "key": "MechanizedMech"
+            },
+            {
+                "url": "www/game/assets/MechIcon.png",
+                "type": "image",
+                "key": "MechIcon"
+            },
+            {
+                "url": "www/game/assets/MeleeIcon.png",
+                "type": "image",
+                "key": "MeleeIcon"
+            },
+            {
+                "url": "www/game/assets/Mine.png",
+                "type": "image",
+                "key": "Mine"
+            },
+            {
+                "url": "www/game/assets/Mineicon.png",
+                "type": "image",
+                "key": "Mineicon"
+            },
+            {
+                "url": "www/game/assets/Title Screen/names.png",
+                "type": "image",
+                "key": "names"
+            },
+            {
+                "url": "www/game/assets/PassButton.png",
+                "type": "image",
+                "key": "PassButton"
+            },
+            {
+                "url": "www/game/assets/Title Screen/portal.png",
+                "type": "image",
+                "key": "portal"
+            },
+            {
+                "url": "www/game/assets/Title Screen/press.png",
+                "type": "image",
+                "key": "press"
+            },
+            {
+                "url": "www/game/assets/Title Screen/preview.png",
+                "type": "image",
+                "key": "preview"
+            },
+            {
+                "url": "www/game/assets/RangeIcon.png",
+                "type": "image",
+                "key": "RangeIcon"
+            },
+            {
+                "url": "www/game/assets/ReadyVolcano.png",
+                "type": "image",
+                "key": "ReadyVolcano"
+            },
+            {
+                "url": "www/game/assets/ReadyVolcanoIcon.png",
+                "type": "image",
+                "key": "ReadyVolcanoIcon"
+            },
+            {
+                "url": "www/game/assets/Title Screen/red thingy.png",
+                "type": "image",
+                "key": "red thingy"
+            },
+            {
+                "url": "www/game/assets/register.png",
+                "type": "image",
+                "key": "register"
+            },
+            {
+                "url": "www/game/assets/ResourcesCostIcon.png",
+                "type": "image",
+                "key": "ResourcesCostIcon"
+            },
+            {
+                "url": "www/game/assets/sadcaveman.png",
+                "type": "image",
+                "key": "sadcaveman"
+            },
+            {
+                "url": "www/game/assets/sadsniper.png",
+                "type": "image",
+                "key": "sadsniper"
+            },
+            {
+                "url": "www/game/assets/SecuritySystem.png",
+                "type": "image",
+                "key": "SecuritySystem"
+            },
+            {
+                "url": "www/game/assets/SecuritySystemIcon.png",
+                "type": "image",
+                "key": "SecuritySystemIcon"
+            },
+            {
+                "url": "www/game/assets/ShieldWall.png",
+                "type": "image",
+                "key": "ShieldWall"
+            },
+            {
+                "url": "www/game/assets/ShieldWallIcon.png",
+                "type": "image",
+                "key": "ShieldWallIcon"
+            },
+            {
+                "url": "www/game/assets/Shop.png",
+                "type": "image",
+                "key": "Shop"
+            },
+            {
+                "url": "www/game/assets/ShopOpenButton.png",
+                "type": "image",
+                "key": "ShopOpenButton"
+            },
+            {
+                "url": "www/game/assets/ShopOpenButtonRed.png",
+                "type": "image",
+                "key": "ShopOpenButtonRed"
+            },
+            {
+                "url": "www/game/assets/Sign1.png",
+                "type": "image",
+                "key": "Sign1"
+            },
+            {
+                "url": "www/game/assets/Sniper.png",
+                "type": "image",
+                "key": "Sniper"
+            },
+            {
+                "url": "www/game/assets/Snipericon.png",
+                "type": "image",
+                "key": "Snipericon"
+            },
+            {
+                "url": "www/game/assets/Soldier.png",
+                "type": "image",
+                "key": "Soldier"
+            },
+            {
+                "url": "www/game/assets/SoldierIcon.png",
+                "type": "image",
+                "key": "SoldierIcon"
+            },
+            {
+                "url": "www/game/assets/Title Screen/spin.png",
+                "type": "image",
+                "key": "spin"
+            },
+            {
+                "url": "www/game/assets/Title Screen/spot.png",
+                "type": "image",
+                "key": "spot"
+            },
+            {
+                "url": "www/game/assets/Square.png",
+                "type": "image",
+                "key": "Square"
+            },
+            {
+                "url": "www/game/assets/Tank.png",
+                "type": "image",
+                "key": "Tank"
+            },
+            {
+                "url": "www/game/assets/TankIcon.png",
+                "type": "image",
+                "key": "TankIcon"
+            },
+            {
+                "url": "www/game/assets/TileSelectedTex.png",
+                "type": "image",
+                "key": "TileSelectedTex"
+            },
+            {
+                "url": "www/game/assets/TrexRider.png",
+                "type": "image",
+                "key": "TrexRider"
+            },
+            {
+                "url": "www/game/assets/TrexRiderIcon.png",
+                "type": "image",
+                "key": "TrexRiderIcon"
+            },
+            {
+                "url": "www/game/assets/TurnUI.png",
+                "type": "image",
+                "key": "TurnUI"
+            },
+            {
+                "url": "www/game/assets/TurretIcon.png",
+                "type": "image",
+                "key": "TurretIcon"
+            },
+            {
+                "url": "www/game/assets/TurretUnit.png",
+                "type": "image",
+                "key": "TurretUnit"
+            },
+            {
+                "url": "www/game/assets/UnitTileIcon.png",
+                "type": "image",
+                "key": "UnitTileIcon"
+            },
+            {
+                "url": "www/game/assets/UnitTileIcon2.png",
+                "type": "image",
+                "key": "UnitTileIcon2"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

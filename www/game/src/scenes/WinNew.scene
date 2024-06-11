@@ -1,0 +1,112 @@
+{
+    "id": "7a107cfd-4398-497a-9fec-048b05adec7a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "WinNew",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "eb97a62d-90c6-48ee-9149-7e74d80d3b12",
+            "label": "bg1",
+            "texture": {
+                "key": "bg1"
+            },
+            "x": 642,
+            "y": 361
+        },
+        {
+            "type": "Text",
+            "id": "032b392d-1c1b-4a71-9d56-3938cf1e676c",
+            "label": "welcome",
+            "x": 644,
+            "y": 132,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "You Win!\n",
+            "fontFamily": "Arial",
+            "fontSize": "60px",
+            "list": [
+                {
+                    "prefabId": "7028a0e2-cd14-44b7-b2a4-68dac16ece00",
+                    "id": "4e69cba7-243d-4b8f-86c7-972569a6de70",
+                    "label": "onAwakeScript_1",
+                    "list": [
+                        {
+                            "prefabId": "978fd4e0-a722-4061-a6d9-86748db8a38a",
+                            "id": "aaa32424-23c2-4cda-bd92-402acd4e7e60",
+                            "unlock": [
+                                "fadeDirection"
+                            ],
+                            "label": "fadeActionScript",
+                            "fadeDirection": "FadeIn",
+                            "components": [
+                                "DurationConfigComp"
+                            ],
+                            "DurationConfigComp.duration": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "2919d315-370b-4ea8-9580-c654b7e2cab1",
+            "label": "happycaveman",
+            "texture": {
+                "key": "happycaveman"
+            },
+            "x": 1029,
+            "y": 623
+        },
+        {
+            "type": "Image",
+            "id": "84a1fb9b-0efb-43b6-8caa-1cf403ba54da",
+            "label": "buttonunclicked",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 340,
+            "hitArea.height": 180,
+            "texture": {
+                "key": "buttonunclicked"
+            },
+            "x": 642,
+            "y": 474
+        },
+        {
+            "type": "Image",
+            "id": "d2d619ae-5eac-472e-8948-03067fb847aa",
+            "label": "happysniper",
+            "texture": {
+                "key": "happysniper"
+            },
+            "x": 291,
+            "y": 630
+        },
+        {
+            "type": "Image",
+            "id": "cbec4e65-3957-4659-af8c-45ac5e9681a1",
+            "label": "buttonclicked",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 340,
+            "hitArea.height": 180,
+            "texture": {
+                "key": "buttonclicked"
+            },
+            "x": -250,
+            "y": 492
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

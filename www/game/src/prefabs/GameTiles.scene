@@ -1,0 +1,52 @@
+{
+    "id": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d6a8dae7-72c3-4390-9270-a3c4a480f9ed",
+            "label": "square",
+            "texture": {
+                "key": "UnitTileIcon"
+            },
+            "x": 513,
+            "y": 436
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "CoordinateX",
+            "label": "CoordinateX",
+            "tooltip": "",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "CoordinateY",
+            "label": "CoordinateY",
+            "tooltip": "",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

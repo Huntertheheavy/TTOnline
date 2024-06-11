@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="Scripts/LoginRegisterScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="icon" href="../game/assets/Title Screen/logo.png">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('./game/assets/Title Screen/bg1.png');
+        }
+        dl {
+            border: 12px solid rgb(15, 0, 185);
+            padding: 30px;
+            text-align: center;
+        }
+        .centered-content {
+            text-align: center;
+        }
+        .centered-image {
+            width: 450px;
+            height: 350px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-content">
+        <img src="./game/assets/Title Screen/logo.png" class="centered-image">
+        <dl>
+            <input type="text" id="Username" placeholder="Username">
+            <p><input type="password" id="Password" placeholder="Password"></p>
+            <a href="#" onclick="Login()">
+                <img src="./game/assets/login.png" alt="Login" class="login-button">
+            <div id="log"></div>
+        </dl>
+    </div>
+</body>
+</html>

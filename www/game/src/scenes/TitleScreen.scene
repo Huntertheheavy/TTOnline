@@ -1,0 +1,209 @@
+{
+    "id": "f3752608-6328-46fe-9905-140447d32cc4",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "TitleScreen",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5108d8d5-fc2a-4b98-9a39-61cd139609fe",
+            "label": "bg1",
+            "texture": {
+                "key": "bg1"
+            },
+            "x": 640,
+            "y": 359
+        },
+        {
+            "type": "Image",
+            "id": "54d9fac6-2586-459e-8bf1-ca24620f79d4",
+            "label": "spot",
+            "scope": "CLASS",
+            "texture": {
+                "key": "spot"
+            },
+            "x": -236,
+            "y": 63,
+            "scaleX": 1.1054558827359195,
+            "scaleY": 1.6519580621601309
+        },
+        {
+            "type": "Image",
+            "id": "1ef7db08-de87-43a6-a094-58a15fdd3822",
+            "label": "spot_1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "spot"
+            },
+            "x": -143,
+            "y": 214,
+            "scaleX": 0.7943515215493968,
+            "scaleY": 1.0468747629373003
+        },
+        {
+            "type": "Image",
+            "id": "6915e840-0e0e-455b-8dce-24964f7d2c70",
+            "label": "spot_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "spot"
+            },
+            "x": -434,
+            "y": 390,
+            "scaleX": 1.4432172836192567,
+            "scaleY": 1.8674497799797307
+        },
+        {
+            "type": "Image",
+            "id": "3ac57375-062f-48a4-9770-8bcb3899267d",
+            "label": "spot_3",
+            "scope": "CLASS",
+            "texture": {
+                "key": "spot"
+            },
+            "x": -233,
+            "y": 581,
+            "scaleX": 0.5987863180363076,
+            "scaleY": 0.9341722863634923
+        },
+        {
+            "type": "Image",
+            "id": "a0eba53c-ba99-4ce8-848f-d363bcda6db2",
+            "label": "spin",
+            "scope": "CLASS",
+            "texture": {
+                "key": "spin"
+            },
+            "x": 1283,
+            "y": 356
+        },
+        {
+            "type": "Image",
+            "id": "a2d82258-ede4-4326-a5e9-07f6d9e52fbc",
+            "label": "fight",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 525,
+            "hitArea.height": 357,
+            "texture": {
+                "key": "fight"
+            },
+            "x": 307,
+            "y": 400,
+            "scaleX": 0.1,
+            "scaleY": 0.1,
+            "angle": 120,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7040716b-da1e-4990-aaa9-5b198e31db7b",
+            "label": "red_thingy",
+            "scope": "CLASS",
+            "texture": {
+                "key": "red thingy"
+            },
+            "x": 1030,
+            "y": 268,
+            "scaleY": 1.0317551087698602
+        },
+        {
+            "type": "Image",
+            "id": "2ccb8fb6-864e-48de-a98c-1478eaa34152",
+            "label": "blue_thingy",
+            "scope": "CLASS",
+            "texture": {
+                "key": "blue thingy"
+            },
+            "x": 244,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "21a429d7-ce2f-4cfc-869b-3c58af1d2e9a",
+            "label": "logo",
+            "scope": "CLASS",
+            "texture": {
+                "key": "logo_1"
+            },
+            "x": 669,
+            "y": 305
+        },
+        {
+            "type": "Image",
+            "id": "3ba3151a-a4d4-4ce9-9a31-3d0b3583d35e",
+            "label": "press",
+            "scope": "CLASS",
+            "texture": {
+                "key": "press"
+            },
+            "x": 639,
+            "y": 679,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "367b934a-e853-4304-8d84-3bcfddaab7e6",
+            "label": "fight2",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 525,
+            "hitArea.height": 357,
+            "texture": {
+                "key": "fight2"
+            },
+            "x": -799,
+            "y": 678
+        },
+        {
+            "type": "Image",
+            "id": "63083626-6f24-4325-b868-21c828d2e6f3",
+            "label": "portal",
+            "scope": "CLASS",
+            "texture": {
+                "key": "portal"
+            },
+            "x": 651,
+            "y": 357,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "04026c55-10bb-4791-b13f-29a3cddda774",
+            "label": "names",
+            "scope": "CLASS",
+            "texture": {
+                "key": "names"
+            },
+            "x": 1117,
+            "y": 663,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e31747a8-ba67-41db-acc0-e8307edb0fc4",
+            "label": "iade",
+            "scope": "CLASS",
+            "texture": {
+                "key": "iade"
+            },
+            "x": 1113,
+            "y": 568,
+            "scaleX": 0.15460354202881438,
+            "scaleY": 0.14958478987293267,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

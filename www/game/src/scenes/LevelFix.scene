@@ -1,0 +1,3953 @@
+{
+    "id": "bc2a221a-f17c-4b86-8e1b-992473a9dbb9",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelFix",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "efe6a300-2c53-4494-83ba-a731d2284de7",
+            "label": "BackgroundAsset",
+            "scope": "CLASS",
+            "texture": {
+                "key": "BackgroundAsset"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "9bd6fdb0-3b55-4431-9600-a3371656d980",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_0",
+            "scope": "CLASS",
+            "CoordinateX": 1,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 324,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "85fa75a2-df40-4222-ad72-41c4608743d6",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_1",
+            "scope": "CLASS",
+            "CoordinateX": 2,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 449,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "c4f7b816-e98c-4445-aab4-f9d131fb250f",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_2",
+            "scope": "CLASS",
+            "CoordinateX": 3,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 574,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "606fd1c6-7fdf-4cc8-ac65-5b466086fc6c",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_3",
+            "scope": "CLASS",
+            "CoordinateX": 4,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 699,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "8f764d9e-c31d-47c5-b666-0e7903ce24c2",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_4",
+            "scope": "CLASS",
+            "CoordinateX": 5,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 824,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "e77e5ed9-6e31-4ab6-8cab-044365bb6c31",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_5",
+            "scope": "CLASS",
+            "CoordinateX": 6,
+            "CoordinateY": 1,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 949,
+            "y": 210,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "9cefd9fe-1b13-40ae-baa9-a06178ab272d",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_6",
+            "scope": "CLASS",
+            "CoordinateX": 1,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 324,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "e214dfb1-72a8-482e-a2bf-7d771423b6f9",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_7",
+            "scope": "CLASS",
+            "CoordinateX": 2,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 449,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "d969b4cf-7cca-43e7-8d9c-992ef970e516",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_8",
+            "scope": "CLASS",
+            "CoordinateX": 3,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 574,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "fd926add-5a17-4638-bb6d-048f8248fe63",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_9",
+            "scope": "CLASS",
+            "CoordinateX": 4,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 699,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "c0daeec4-2d8f-48e8-841e-c4f0a6efe983",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_10",
+            "scope": "CLASS",
+            "CoordinateX": 5,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 824,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "fdf851e5-3d4b-46a0-8bbd-00b74baf53c4",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_11",
+            "scope": "CLASS",
+            "CoordinateX": 6,
+            "CoordinateY": 2,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 949,
+            "y": 322,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "0d0b79ad-abb9-4858-b1aa-1b56c6ebef57",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_12",
+            "scope": "CLASS",
+            "CoordinateX": 1,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 324,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "eeabdd42-2832-4bac-83ca-bc57d85cd59c",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_13",
+            "scope": "CLASS",
+            "CoordinateX": 2,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 449,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "0c3faab5-8847-4401-a147-f599f90ffa15",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_14",
+            "scope": "CLASS",
+            "CoordinateX": 3,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 574,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "a161b802-7c26-4fd0-b05e-b02c145fd265",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_15",
+            "scope": "CLASS",
+            "CoordinateX": 4,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 699,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "9e55f89f-7c99-4f96-a97e-292aac303097",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_16",
+            "scope": "CLASS",
+            "CoordinateX": 5,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 824,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "fcf1c204-95ce-492f-bf58-72808fd6dd98",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_17",
+            "scope": "CLASS",
+            "CoordinateX": 6,
+            "CoordinateY": 3,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 949,
+            "y": 434,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "6400a08b-eb87-4b43-9e49-a77315b51d86",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_18",
+            "scope": "CLASS",
+            "CoordinateX": 1,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 324,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "1e70f481-77e1-4fb5-a815-37bd732bf689",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_19",
+            "scope": "CLASS",
+            "CoordinateX": 2,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 449,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "c5f4cc08-48b0-4032-8005-fdedc58d9d89",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_20",
+            "scope": "CLASS",
+            "CoordinateX": 3,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 574,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "0df95832-3a1f-4758-be02-4bf678b2f018",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateX",
+                "CoordinateY",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_21",
+            "scope": "CLASS",
+            "CoordinateX": 4,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 699,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "6adb060e-d023-45e0-8fdf-f014e98d636f",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_22",
+            "scope": "CLASS",
+            "CoordinateX": 5,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 824,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "prefabId": "6f7994c6-0c11-4e56-9ec9-710ccdb1b658",
+            "id": "af20afc6-3e36-4c2c-839d-dd51cff2ce6c",
+            "unlock": [
+                "x",
+                "y",
+                "CoordinateY",
+                "CoordinateX",
+                "hitArea.shape",
+                "hitArea.x",
+                "hitArea.y",
+                "hitArea.width",
+                "hitArea.height",
+                "hitArea.radius",
+                "hitArea.points",
+                "hitArea.alphaTolerance",
+                "texture",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameTiles_23",
+            "scope": "CLASS",
+            "CoordinateX": 6,
+            "CoordinateY": 4,
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 0,
+            "hitArea.y": 0,
+            "hitArea.width": 131,
+            "hitArea.height": 119,
+            "texture": {
+                "key": "UnitTileIcon2"
+            },
+            "x": 949,
+            "y": 547,
+            "scaleX": 0.96,
+            "scaleY": 0.95
+        },
+        {
+            "type": "Container",
+            "id": "383c7078-93a7-4370-a9af-ec15ff94c877",
+            "label": "UI",
+            "scope": "CLASS",
+            "x": -143,
+            "y": 7,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4add0eab-b081-434f-a862-78c4fb7fe540",
+                    "label": "defenseBar",
+                    "texture": {
+                        "key": "DefenseBar"
+                    },
+                    "x": 143,
+                    "y": -7,
+                    "scaleX": 0.7,
+                    "scaleY": 0.8,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "65b770be-a694-4081-970a-1de71428f5b9",
+                    "label": "passbutton",
+                    "scope": "CLASS",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 280,
+                    "hitArea.height": 77,
+                    "texture": {
+                        "key": "PassButton"
+                    },
+                    "x": 778,
+                    "y": 675
+                },
+                {
+                    "type": "Image",
+                    "id": "a4ae83a0-ba4b-4b79-9540-d6d177b2caf6",
+                    "label": "turnUI",
+                    "texture": {
+                        "key": "TurnUI"
+                    },
+                    "x": 778,
+                    "y": -7,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "fd4af161-34f6-49ce-8c52-ad6ccee3b2dc",
+                    "label": "turnmessage",
+                    "scope": "CLASS",
+                    "x": 780,
+                    "y": 611,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "New",
+                    "align": "justify",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "20px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 8,
+                    "baselineX": 1,
+                    "baselineY": 1
+                },
+                {
+                    "type": "Image",
+                    "id": "1b0cc0a0-6ad6-4af4-9cd2-cafb4e7602fb",
+                    "label": "atkShopOpenButton",
+                    "scope": "CLASS",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 30,
+                    "hitArea.height": 50,
+                    "texture": {
+                        "key": "ShopOpenButtonRed"
+                    },
+                    "x": 1354,
+                    "y": 379,
+                    "scaleX": 3,
+                    "scaleY": 3
+                },
+                {
+                    "type": "Image",
+                    "id": "22b622d2-7911-4817-98e8-6addfcf2121f",
+                    "label": "defShopOpenButton",
+                    "scope": "CLASS",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 30,
+                    "hitArea.height": 50,
+                    "texture": {
+                        "key": "ShopOpenButton"
+                    },
+                    "x": 202,
+                    "y": 360,
+                    "scaleX": 3,
+                    "scaleY": 3
+                },
+                {
+                    "type": "Image",
+                    "id": "6960205f-147a-4fb5-9344-795fe7333561",
+                    "label": "sign1",
+                    "texture": {
+                        "key": "Sign1"
+                    },
+                    "x": 1104,
+                    "y": 105
+                },
+                {
+                    "type": "Text",
+                    "id": "8899deb8-68e0-4694-bf3e-51d89fa0fb61",
+                    "label": "turnnumb",
+                    "scope": "CLASS",
+                    "x": 778,
+                    "y": 83,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "40px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 8
+                },
+                {
+                    "type": "Image",
+                    "id": "5d7b8d75-b5ae-48a4-a5f0-087d38530f9b",
+                    "label": "attackBar",
+                    "texture": {
+                        "key": "AttackBar"
+                    },
+                    "x": 1427,
+                    "y": -7,
+                    "scaleX": 0.7,
+                    "scaleY": 0.8,
+                    "originX": 1,
+                    "originY": 0,
+                    "flipX": true
+                },
+                {
+                    "type": "Text",
+                    "id": "0e9234de-4f92-44e7-8b40-ecaff8f918d6",
+                    "label": "AttackerName",
+                    "scope": "CLASS",
+                    "x": 1421,
+                    "y": 36,
+                    "originX": 1,
+                    "originY": 0.5,
+                    "text": "Attacker Name\n",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Text",
+                    "id": "a56e03f4-7b6e-40d3-8369-2ea04731ccdf",
+                    "label": "DefenderResource",
+                    "scope": "CLASS",
+                    "x": 491,
+                    "y": 32,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "40px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 8
+                },
+                {
+                    "type": "Text",
+                    "id": "f5a4c3af-7976-4751-bb6a-ce74bbb17ab1",
+                    "label": "AttackerResource",
+                    "scope": "CLASS",
+                    "x": 1026,
+                    "y": 32,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "40px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 8
+                },
+                {
+                    "type": "Text",
+                    "id": "d6072aaf-97be-4ddd-ab13-8ecd6a33147f",
+                    "label": "DefenderName",
+                    "scope": "CLASS",
+                    "x": 141,
+                    "y": 36,
+                    "originY": 0.5,
+                    "text": "Defender Name\n",
+                    "align": "center",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Image",
+                    "id": "16f376dd-06b0-49af-8cbe-ba997ab983a5",
+                    "label": "CancelButton1",
+                    "scope": "CLASS",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 645,
+                    "hitArea.height": 374,
+                    "texture": {
+                        "key": "CancelButton1"
+                    },
+                    "x": 779,
+                    "y": 129,
+                    "scaleX": 0.1,
+                    "scaleY": 0.1
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "97f336e6-b765-45f0-bfc7-f986e00f23a5",
+            "label": "DefenseShopUI",
+            "scope": "CLASS",
+            "x": -420,
+            "y": 367,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a8bf60cd-ffd8-4c14-a2c3-0913aed90baa",
+                    "label": "defenseShop",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Shop"
+                    },
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "originX": 0
+                },
+                {
+                    "type": "Container",
+                    "id": "510f3ecb-961f-4e3e-801b-ed060ece8668",
+                    "label": "DefenseUnits",
+                    "scope": "CLASS",
+                    "x": 73,
+                    "y": -130,
+                    "list": [
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "c37cafe9-1a4f-4aac-9744-36e6bb6d4981",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "Turret",
+                            "displayName": "1",
+                            "scope": "CLASS",
+                            "UnitID": 1,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "TurretIcon"
+                            },
+                            "x": 2,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "d9d0ee64-1399-43b2-a29a-74a1eceeef71",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "snipericon",
+                            "scope": "CLASS",
+                            "UnitID": 7,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "Mineicon"
+                            },
+                            "x": 124,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "3a4ebe02-81ca-48e7-9aab-09caf327c6cc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "mineicon",
+                            "scope": "CLASS",
+                            "UnitID": 13,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "Snipericon"
+                            },
+                            "x": 247,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "83108381-5e98-4b8e-aec4-7ea166e320ba",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "daggerGuyIcon",
+                            "scope": "CLASS",
+                            "UnitID": 3,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "DaggerGuyIcon"
+                            },
+                            "x": 124,
+                            "y": 114
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "4f77b76d-4ab2-46c6-8857-3572a3d7ad16",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "laserCanonIcon",
+                            "scope": "CLASS",
+                            "UnitID": 8,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "LaserCanonIcon"
+                            },
+                            "x": 247,
+                            "y": 114
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "9241aa8a-e351-494c-a3cd-808fa5f19b90",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "securitySystemIcon",
+                            "scope": "CLASS",
+                            "UnitID": 10,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "ReadyVolcanoIcon"
+                            },
+                            "x": 124,
+                            "y": 219
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "234f8b9c-8899-4166-aa75-0db763e59883",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "readyVolcanoIcon",
+                            "scope": "CLASS",
+                            "UnitID": 11,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "SecuritySystemIcon"
+                            },
+                            "x": 0,
+                            "y": 219
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "d04b7ae7-aa7a-4ec6-bfe4-6042b12728ff",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "barbedWallIcon",
+                            "scope": "CLASS",
+                            "UnitID": 16,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "BarbedWallIcon"
+                            },
+                            "x": 0,
+                            "y": 114
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "1a4690a6-82dd-4e39-80fb-b74b0e7d9208",
+                    "label": "healthIcon",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 41,
+                    "y": -161
+                },
+                {
+                    "type": "Image",
+                    "id": "c97fa2de-5468-46da-a7b1-e2c3b677801e",
+                    "label": "healthIcon_1",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 163,
+                    "y": -160
+                },
+                {
+                    "type": "Image",
+                    "id": "75d8dd1e-fbbe-46e0-8280-0ba77d2a5de9",
+                    "label": "healthIcon_2",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 286,
+                    "y": -162
+                },
+                {
+                    "type": "Image",
+                    "id": "2821146d-c48e-4503-93fb-0fa0c1ed9c9e",
+                    "label": "healthIcon_3",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 285,
+                    "y": -47
+                },
+                {
+                    "type": "Image",
+                    "id": "28ae02b6-3396-443a-b21f-e769ab09e132",
+                    "label": "healthIcon_4",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 163,
+                    "y": -47
+                },
+                {
+                    "type": "Image",
+                    "id": "c4f2b857-8b5d-46be-9149-3409bdcd52ae",
+                    "label": "healthIcon_5",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 39,
+                    "y": -47
+                },
+                {
+                    "type": "Image",
+                    "id": "e2b350d0-54d9-4c23-afbf-fea84f39dffd",
+                    "label": "healthIcon_6",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 162,
+                    "y": 59
+                },
+                {
+                    "type": "Image",
+                    "id": "71bb40a9-fb04-40f4-91f7-c8a90a2bb570",
+                    "label": "healthIcon_7",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 38,
+                    "y": 59
+                },
+                {
+                    "type": "Image",
+                    "id": "a0f12a66-f1c1-446e-b3d5-3d53804812ed",
+                    "label": "healthIcon_8",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 107,
+                    "y": 60
+                },
+                {
+                    "type": "Image",
+                    "id": "8c50aa35-ec4a-49fa-972b-671e07be2765",
+                    "label": "healthIcon_9",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 108,
+                    "y": -46
+                },
+                {
+                    "type": "Image",
+                    "id": "3b8501a8-39aa-4610-ba90-e6eea9bf9ca2",
+                    "label": "healthIcon_10",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 108,
+                    "y": -160
+                },
+                {
+                    "type": "Image",
+                    "id": "67d61c69-6858-4347-ac14-b5a721c59aec",
+                    "label": "healthIcon_11",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 232,
+                    "y": -159
+                },
+                {
+                    "type": "Image",
+                    "id": "c4f503b3-a6b8-4fae-abf8-161572da18fb",
+                    "label": "healthIcon_12",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 232,
+                    "y": -46
+                },
+                {
+                    "type": "Image",
+                    "id": "8c343d01-7972-448f-a184-ed1d3b357a81",
+                    "label": "healthIcon_13",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 355,
+                    "y": -161
+                },
+                {
+                    "type": "Image",
+                    "id": "79f7b679-d978-49bb-b861-f89200099c37",
+                    "label": "healthIcon_14",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 354,
+                    "y": -46
+                },
+                {
+                    "type": "Image",
+                    "id": "f9ce02fa-6e30-4ab7-96d5-73f0e653aaf7",
+                    "label": "healthIcon_15",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 231,
+                    "y": 60
+                },
+                {
+                    "type": "Image",
+                    "id": "726bb13f-4f03-42ab-8c1f-9dfa8879a098",
+                    "label": "healthIcon_16",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 39,
+                    "y": 122
+                },
+                {
+                    "type": "Image",
+                    "id": "87c8e118-d147-4b05-a2b2-1eadf58d2cd9",
+                    "label": "healthIcon_17",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 40,
+                    "y": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "3bf3d323-df3c-47d4-9e71-cce1382e32c3",
+                    "label": "healthIcon_18",
+                    "texture": {
+                        "key": "RangeIcon"
+                    },
+                    "x": 42,
+                    "y": -98
+                },
+                {
+                    "type": "Image",
+                    "id": "ab6ec525-8a65-4d44-a185-86f8ca18edfe",
+                    "label": "healthIcon_19",
+                    "texture": {
+                        "key": "ExplosiveDamage"
+                    },
+                    "x": 164,
+                    "y": -97
+                },
+                {
+                    "type": "Image",
+                    "id": "705afdbf-9591-42e0-bce8-6ac351ddf18c",
+                    "label": "healthIcon_20",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 164,
+                    "y": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "8aa45509-3cc6-4de6-be41-b8133d15baba",
+                    "label": "healthIcon_21",
+                    "texture": {
+                        "key": "RangeIcon"
+                    },
+                    "x": 287,
+                    "y": -99
+                },
+                {
+                    "type": "Image",
+                    "id": "6f92f99d-81e6-4632-bdfc-7e9e2a66c706",
+                    "label": "healthIcon_22",
+                    "texture": {
+                        "key": "RangeIcon"
+                    },
+                    "x": 286,
+                    "y": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "a85a28bc-f4a8-4a8c-b2d1-549e251a8d5f",
+                    "label": "healthIcon_23",
+                    "texture": {
+                        "key": "ExplosiveDamage"
+                    },
+                    "x": 163,
+                    "y": 122
+                },
+                {
+                    "type": "Text",
+                    "id": "31c3b23b-7bf3-417e-978b-aeaa4213efd9",
+                    "label": "healthIcon_24",
+                    "x": 30,
+                    "y": -110,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "4b7f65b4-e63b-4c31-9acb-6b48fc12ea78",
+                    "label": "healthIcon_25",
+                    "x": 99,
+                    "y": -174,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "566526f0-53fa-41b0-bdb8-67d1c2271721",
+                    "label": "healthIcon_26",
+                    "x": 33,
+                    "y": -173,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Image",
+                    "id": "2612a23e-ec9b-48da-88f6-ff4935ba7185",
+                    "label": "actionCostIcon",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 106,
+                    "y": -102
+                },
+                {
+                    "type": "Image",
+                    "id": "af53d60d-caf4-4f82-a6eb-679db5dfdedb",
+                    "label": "actionCostIcon_1",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 232,
+                    "y": -102
+                },
+                {
+                    "type": "Image",
+                    "id": "d50be404-71ac-417a-8752-43e6d2706234",
+                    "label": "actionCostIcon_2",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 356,
+                    "y": -102
+                },
+                {
+                    "type": "Image",
+                    "id": "ff8a46b1-13e1-4c18-93a1-23747c03c91a",
+                    "label": "actionCostIcon_3",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 355.56597900390625,
+                    "y": 12
+                },
+                {
+                    "type": "Image",
+                    "id": "91eaaf0c-8206-4e1b-b9a8-a9e6230ed74a",
+                    "label": "actionCostIcon_4",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 233,
+                    "y": 12
+                },
+                {
+                    "type": "Image",
+                    "id": "9b16e2ca-2a75-454e-ac1f-0e653b96b4ce",
+                    "label": "actionCostIcon_5",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 106,
+                    "y": 12
+                },
+                {
+                    "type": "Image",
+                    "id": "d78a2805-ab72-4754-9f1e-f0500fd8e0db",
+                    "label": "actionCostIcon_6",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 108,
+                    "y": 118
+                },
+                {
+                    "type": "Image",
+                    "id": "671b14f7-6fa2-4898-8442-25d1616bbf82",
+                    "label": "actionCostIcon_7",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 233,
+                    "y": 117
+                },
+                {
+                    "type": "Text",
+                    "id": "38b44d14-a997-48bc-9ec8-afa827994704",
+                    "label": "healthIcon_27",
+                    "x": 99,
+                    "y": -107,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "9353ce1d-972c-4dde-a44c-f988b260e271",
+                    "label": "healthIcon_28",
+                    "x": 222,
+                    "y": -173,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "4807fd49-0437-4b82-9b8b-588e12096fdf",
+                    "label": "healthIcon_29",
+                    "x": 156,
+                    "y": -172,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "0d4d8f58-5c75-4d76-a826-8abd3bd73981",
+                    "label": "healthIcon_30",
+                    "x": 153,
+                    "y": -109,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "e40be1b4-177d-43e0-8838-431b62b7cc14",
+                    "label": "healthIcon_31",
+                    "x": 222,
+                    "y": -106,
+                    "text": "0",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "2e7e0184-cba1-446e-98d3-6123aa5f292f",
+                    "label": "healthIcon_32",
+                    "x": 346,
+                    "y": -173,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "37c78ea0-f1e1-4e78-bee1-91b3fb4a5ed2",
+                    "label": "healthIcon_33",
+                    "x": 278,
+                    "y": -173,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "f476bdbb-f70e-48c7-9c83-1f9cd11c5173",
+                    "label": "healthIcon_34",
+                    "x": 277,
+                    "y": -109,
+                    "text": "5",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "661069af-26f0-4648-a682-85838b571aec",
+                    "label": "healthIcon_35",
+                    "x": 346,
+                    "y": -106,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "f7213328-c236-4006-801a-658f9dbbf115",
+                    "label": "healthIcon_36",
+                    "x": 345,
+                    "y": -58,
+                    "text": "5",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "a80b2950-9fff-45e0-95ee-82aaf49508c1",
+                    "label": "healthIcon_37",
+                    "x": 275,
+                    "y": -57,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "9ef40705-83bd-48cb-879d-0e716ba60508",
+                    "label": "healthIcon_38",
+                    "x": 276,
+                    "y": 6,
+                    "text": "8",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "ab770cdc-b79d-4c70-915d-27dbbf227cf1",
+                    "label": "healthIcon_39",
+                    "x": 345,
+                    "y": 9,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "9eeda52f-04ca-4a1d-b987-67130a536679",
+                    "label": "healthIcon_40",
+                    "x": 225,
+                    "y": -58,
+                    "text": "4",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "e932eab7-1172-45de-8d47-29361b49863f",
+                    "label": "healthIcon_41",
+                    "x": 154,
+                    "y": -59,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "3b844115-ad55-4e71-affb-63a31a0a5a50",
+                    "label": "healthIcon_42",
+                    "x": 156,
+                    "y": 6,
+                    "text": "6",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "38de9453-9357-499f-96f4-a8563e3ba39a",
+                    "label": "healthIcon_43",
+                    "x": 225,
+                    "y": 9,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "5321c690-a8e9-40f9-8e89-c6c637456e96",
+                    "label": "healthIcon_44",
+                    "x": 98,
+                    "y": -57,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "985a7ae7-cb50-411b-9508-814843a447f4",
+                    "label": "healthIcon_45",
+                    "x": 30,
+                    "y": -57,
+                    "text": "5",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "c922b395-aab2-4138-8ecb-cfefebe1e552",
+                    "label": "healthIcon_46",
+                    "x": 29,
+                    "y": 7,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "00bc827c-c45c-4fbe-958b-6fce878bfaca",
+                    "label": "healthIcon_47",
+                    "x": 98,
+                    "y": 10,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "426148e3-9f06-403f-b044-6c62374406a1",
+                    "label": "healthIcon_48",
+                    "x": 98,
+                    "y": 50,
+                    "text": "10",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "733c3a80-3d7e-480d-8824-f98b5c368a2c",
+                    "label": "healthIcon_49",
+                    "x": 30,
+                    "y": 48,
+                    "text": "8",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "e305903d-3642-4ec9-b82d-d09957f03472",
+                    "label": "healthIcon_50",
+                    "x": 29,
+                    "y": 114,
+                    "text": "10",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "463338b5-0d99-453f-9a94-95926dd51cc6",
+                    "label": "healthIcon_51",
+                    "x": 98,
+                    "y": 117,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "efb70abd-7fa3-48eb-8320-77e40cdda358",
+                    "label": "healthIcon_52",
+                    "x": 221,
+                    "y": 48,
+                    "text": "11",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "ca7e34c1-8a03-4f2a-8297-9bff731ecee9",
+                    "label": "healthIcon_53",
+                    "x": 155,
+                    "y": 49,
+                    "text": "10",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "f1b65fb1-cd33-4375-851b-45efead97f75",
+                    "label": "healthIcon_54",
+                    "x": 152,
+                    "y": 112,
+                    "text": "10",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "bd270f33-f47c-4b49-819b-761342ce3433",
+                    "label": "healthIcon_55",
+                    "x": 221,
+                    "y": 115,
+                    "text": "0",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Image",
+                    "id": "6fcf2bc1-1b1a-49c8-894a-9cd6402fb962",
+                    "label": "healthIcon_112",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 823,
+                    "y": -322,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "115745ab-58fe-49f2-9d6c-ac969328e573",
+                    "label": "healthIcon_113",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 1353,
+                    "y": -324,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "65b32f79-8fbf-4b53-a2e1-432fc6e05c98",
+            "label": "AttackShopUI",
+            "scope": "CLASS",
+            "x": 1423,
+            "y": 282,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f5f5f696-8637-4599-a986-e9c9e1c0d510",
+                    "label": "attackShop",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "AttackShop"
+                    },
+                    "x": 268,
+                    "y": 85,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "originX": 1
+                },
+                {
+                    "type": "Container",
+                    "id": "982f71d1-8181-455a-9a65-b45f72b6b830",
+                    "label": "AttackUnits",
+                    "scope": "CLASS",
+                    "x": -43,
+                    "y": -46,
+                    "list": [
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "ff3c0cee-9404-4eae-95b2-3c38d5a40964",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "cavemanIcon",
+                            "scope": "CLASS",
+                            "UnitID": 2,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "x": 216,
+                            "y": 1
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "19188585-47a3-432e-bcc1-7a63e59b950a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "knightIcon",
+                            "scope": "CLASS",
+                            "UnitID": 6,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "KnightIcon"
+                            },
+                            "x": 110,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "ff9ffa66-f8e4-48e2-ac67-5782e2378ddc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "knightIcon_1",
+                            "scope": "CLASS",
+                            "UnitID": 14,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "SoldierIcon"
+                            },
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "5d245701-5d4c-479d-b3de-31de8ddea031",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "TankIcon",
+                            "scope": "CLASS",
+                            "UnitID": 9,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "TankIcon"
+                            },
+                            "x": 2,
+                            "y": 123
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "3e457b74-8b80-4f57-bae9-bd56b67085e3",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "knightIcon_3",
+                            "scope": "CLASS",
+                            "UnitID": 4,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "ExplodingGuyIcon"
+                            },
+                            "x": 112,
+                            "y": 123
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "68f2cf7b-168b-4049-ad00-ea556943332f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "cavemanIcon_1",
+                            "scope": "CLASS",
+                            "UnitID": 12,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "ShieldWallIcon"
+                            },
+                            "x": 218,
+                            "y": 124
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "4d53f138-b9e5-4b8b-9dad-5d19d3772fad",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance",
+                                "texture"
+                            ],
+                            "label": "Futuristic Mech",
+                            "scope": "CLASS",
+                            "UnitID": 5,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "MechIcon"
+                            },
+                            "x": 114,
+                            "y": 239
+                        },
+                        {
+                            "prefabId": "8a95f334-fd7d-4f57-9257-deb037220090",
+                            "id": "2df2de7e-99e2-43d3-80ef-e2ea932a035c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "UnitID",
+                                "hitArea.shape",
+                                "hitArea.x",
+                                "hitArea.y",
+                                "hitArea.width",
+                                "hitArea.height",
+                                "hitArea.radius",
+                                "hitArea.points",
+                                "hitArea.alphaTolerance"
+                            ],
+                            "label": "cavemanIcon_2",
+                            "scope": "CLASS",
+                            "UnitID": 15,
+                            "hitArea.shape": "RECTANGLE",
+                            "hitArea.x": 0,
+                            "hitArea.y": 0,
+                            "hitArea.width": 105,
+                            "hitArea.height": 97,
+                            "texture": {
+                                "key": "TrexRiderIcon"
+                            },
+                            "x": 220,
+                            "y": 240
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "534abec2-b7ef-48f7-91a8-feaa0b01103b",
+                    "label": "healthIcon_56",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": -74,
+                    "y": -75
+                },
+                {
+                    "type": "Image",
+                    "id": "503ec2dc-b2c3-44af-b6ea-44de2cb20f6f",
+                    "label": "actionCostIcon_8",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 214,
+                    "y": 221
+                },
+                {
+                    "type": "Image",
+                    "id": "d8ac152d-52a7-417e-87ee-ae69c971d2f5",
+                    "label": "actionCostIcon_9",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 102,
+                    "y": 222
+                },
+                {
+                    "type": "Image",
+                    "id": "03bea783-93c4-425f-9208-a44920bfb73e",
+                    "label": "actionCostIcon_10",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": -6,
+                    "y": 97
+                },
+                {
+                    "type": "Image",
+                    "id": "a851d7d7-3d3d-4990-81d2-6b16f2fe203f",
+                    "label": "actionCostIcon_11",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 104,
+                    "y": 104
+                },
+                {
+                    "type": "Image",
+                    "id": "04d73c9e-ce02-4992-8202-54c3e5bca318",
+                    "label": "actionCostIcon_12",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 210,
+                    "y": 102
+                },
+                {
+                    "type": "Image",
+                    "id": "4ff31f36-6320-4834-9e69-fc07f42a32d1",
+                    "label": "actionCostIcon_13",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 209,
+                    "y": -18
+                },
+                {
+                    "type": "Image",
+                    "id": "2af9c254-f20c-4323-b4de-d5c35d348db9",
+                    "label": "actionCostIcon_14",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": 102,
+                    "y": -17
+                },
+                {
+                    "type": "Image",
+                    "id": "6177b1b9-a32a-485c-8271-5debd2254fb9",
+                    "label": "actionCostIcon_15",
+                    "texture": {
+                        "key": "ActionCostIcon"
+                    },
+                    "x": -8,
+                    "y": -20
+                },
+                {
+                    "type": "Image",
+                    "id": "68022790-c804-482f-8984-168e3d0a7ce6",
+                    "label": "healthIcon_89",
+                    "texture": {
+                        "key": "ExplosiveDamage"
+                    },
+                    "x": 145,
+                    "y": 226
+                },
+                {
+                    "type": "Image",
+                    "id": "2cd3c58f-7603-44f6-9baf-54bc2b83e333",
+                    "label": "healthIcon_90",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 144,
+                    "y": 105
+                },
+                {
+                    "type": "Image",
+                    "id": "0d4815f3-2a37-4511-ac32-a1d78858359f",
+                    "label": "healthIcon_91",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 143,
+                    "y": -13
+                },
+                {
+                    "type": "Image",
+                    "id": "7fe72d7d-51a6-470f-9163-7b6997cbff2b",
+                    "label": "healthIcon_92",
+                    "texture": {
+                        "key": "ExplosiveDamage"
+                    },
+                    "x": 39,
+                    "y": 103
+                },
+                {
+                    "type": "Image",
+                    "id": "6478ecae-f3a6-4a22-a3e2-d9bffec2e770",
+                    "label": "healthIcon_93",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": 34,
+                    "y": -12
+                },
+                {
+                    "type": "Image",
+                    "id": "fb75a372-e2c4-4073-b412-3b3767533c4e",
+                    "label": "healthIcon_94",
+                    "texture": {
+                        "key": "RangeIcon"
+                    },
+                    "x": -74,
+                    "y": -15
+                },
+                {
+                    "type": "Image",
+                    "id": "dad78f06-e4f9-43d8-940e-f824c67dbfe9",
+                    "label": "healthIcon_95",
+                    "texture": {
+                        "key": "MeleeIcon"
+                    },
+                    "x": -76,
+                    "y": 101
+                },
+                {
+                    "type": "Image",
+                    "id": "b2582cb6-7616-4290-9f17-636c77a4683a",
+                    "label": "healthIcon_96",
+                    "texture": {
+                        "key": "RangeIcon"
+                    },
+                    "x": 33,
+                    "y": 226
+                },
+                {
+                    "type": "Image",
+                    "id": "cc2c6b77-2673-4889-a7b9-34c6927ccde8",
+                    "label": "healthIcon_97",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 210,
+                    "y": 166
+                },
+                {
+                    "type": "Image",
+                    "id": "eba9ef4b-4c32-49f2-9328-b7c6cff637f5",
+                    "label": "healthIcon_98",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 208,
+                    "y": 44
+                },
+                {
+                    "type": "Image",
+                    "id": "af22d126-0422-442d-8bdf-9dc5fe7e36b0",
+                    "label": "healthIcon_99",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 211,
+                    "y": -75
+                },
+                {
+                    "type": "Image",
+                    "id": "8838351f-9003-4114-8692-5cd2ef950374",
+                    "label": "healthIcon_100",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 103,
+                    "y": 44
+                },
+                {
+                    "type": "Image",
+                    "id": "085b21e2-cc13-4669-8dd8-c218078e1cd3",
+                    "label": "healthIcon_101",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 102,
+                    "y": -74
+                },
+                {
+                    "type": "Image",
+                    "id": "76e75b31-a007-4180-a65c-f12044f4798e",
+                    "label": "healthIcon_102",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": -8,
+                    "y": -77
+                },
+                {
+                    "type": "Image",
+                    "id": "61e064cf-1eb8-4e7d-a057-721c1c6c240a",
+                    "label": "healthIcon_103",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": -9,
+                    "y": 48
+                },
+                {
+                    "type": "Image",
+                    "id": "8e4d3e99-2a7e-4c21-99f8-9562a0de7c99",
+                    "label": "healthIcon_104",
+                    "texture": {
+                        "key": "ResourcesCostIcon"
+                    },
+                    "x": 101,
+                    "y": 164
+                },
+                {
+                    "type": "Image",
+                    "id": "6ea88b9a-d75d-42fe-86a4-6a72f9bdf4ce",
+                    "label": "healthIcon_105",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 32,
+                    "y": 163
+                },
+                {
+                    "type": "Image",
+                    "id": "6e1c6b2f-291f-48d4-abd2-e83ab4cbfb75",
+                    "label": "healthIcon_106",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 145,
+                    "y": 164
+                },
+                {
+                    "type": "Image",
+                    "id": "78a247ec-6995-4583-9899-4710ec35a18b",
+                    "label": "healthIcon_107",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": -77,
+                    "y": 46
+                },
+                {
+                    "type": "Image",
+                    "id": "b7a9d5dc-ded9-4e98-93be-8cafff33587d",
+                    "label": "healthIcon_108",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 36,
+                    "y": 47
+                },
+                {
+                    "type": "Image",
+                    "id": "45835d49-97ce-48ed-af70-ab29707465dc",
+                    "label": "healthIcon_109",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 144,
+                    "y": 48
+                },
+                {
+                    "type": "Image",
+                    "id": "5a10b4c9-5e19-411d-82a5-57f334d8f101",
+                    "label": "healthIcon_110",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 142,
+                    "y": -76
+                },
+                {
+                    "type": "Image",
+                    "id": "80156b1b-7c98-4ef0-9947-5288e5beec8d",
+                    "label": "healthIcon_111",
+                    "texture": {
+                        "key": "HealthIcon"
+                    },
+                    "x": 33,
+                    "y": -75
+                },
+                {
+                    "type": "Text",
+                    "id": "fd489eb4-546f-4c81-a010-d3e66b5d6ed6",
+                    "label": "healthIcon_57",
+                    "x": 206,
+                    "y": 215,
+                    "text": "4",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "f3c2eda6-d890-4fbd-8ed6-24fca7c77c28",
+                    "label": "healthIcon_58",
+                    "x": 134,
+                    "y": 216,
+                    "text": "12",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "4d40b661-e680-41b9-85cf-6ebbce551596",
+                    "label": "healthIcon_59",
+                    "x": 133,
+                    "y": 151,
+                    "text": "15",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "14fc9675-2d7e-4fff-8d2e-a55e2b859252",
+                    "label": "healthIcon_60",
+                    "x": 197,
+                    "y": 153,
+                    "text": "10\n",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "d319a79b-c728-456f-8540-d39e972a37e6",
+                    "label": "healthIcon_61",
+                    "x": 95,
+                    "y": 217,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "6f02c004-4a81-4670-82c1-0dc1021623fe",
+                    "label": "healthIcon_62",
+                    "x": 21,
+                    "y": 215,
+                    "text": "8",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "c5ebf8fc-aa7f-44d7-9846-d8034a58c72f",
+                    "label": "healthIcon_63",
+                    "x": 24,
+                    "y": 152,
+                    "text": "13",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "09618d8c-1acc-49ea-9f3e-27f90082e574",
+                    "label": "healthIcon_64",
+                    "x": 92,
+                    "y": 154,
+                    "text": "15",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "b235a370-9527-42f0-93d4-cec06a56a4a1",
+                    "label": "healthIcon_65",
+                    "x": -13,
+                    "y": 94,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "fe53da37-95b9-4de3-95a6-314156c5a061",
+                    "label": "healthIcon_66",
+                    "x": -87,
+                    "y": 92,
+                    "text": "7",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "7f67b350-e9ba-46ef-9361-8c97e76f2cf0",
+                    "label": "healthIcon_67",
+                    "x": -84,
+                    "y": 34,
+                    "text": "6",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "5d0a2402-fe5a-4f1a-bc95-b17f54ad4fe2",
+                    "label": "healthIcon_68",
+                    "x": -17,
+                    "y": 34,
+                    "text": "5",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "9d93d3f1-ee2e-4d94-8eb8-50b7a911290a",
+                    "label": "healthIcon_69",
+                    "x": 96,
+                    "y": 98,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "95a90a59-f635-45b1-a8fe-49bffe9534a2",
+                    "label": "healthIcon_70",
+                    "x": 31,
+                    "y": 93,
+                    "text": "6",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "22b7c1c7-0bc8-43f7-ac5d-4a3bacb792c9",
+                    "label": "healthIcon_71",
+                    "x": 27,
+                    "y": 35,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "89804a51-ccae-40c3-8dc2-65aa28eb6805",
+                    "label": "healthIcon_72",
+                    "x": 96,
+                    "y": 31,
+                    "text": "4",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "d0be0fa8-f0ab-4401-93d0-aac916ab0457",
+                    "label": "healthIcon_73",
+                    "x": 202,
+                    "y": 95,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "4e4c972d-38cd-4828-be54-772248f7c98c",
+                    "label": "healthIcon_74",
+                    "x": 134,
+                    "y": 92,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "1a00cc6d-7738-4a9c-90aa-a5e8ad4d9992",
+                    "label": "healthIcon_75",
+                    "x": 136,
+                    "y": 35,
+                    "text": "8",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "d00e653f-f803-4173-b7cf-9eca530ac33b",
+                    "label": "healthIcon_76",
+                    "x": 199,
+                    "y": 32,
+                    "text": "4",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "1682985e-2f88-4d51-a1ce-07d4dd04646d",
+                    "label": "healthIcon_77",
+                    "x": 201,
+                    "y": -23,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "fc8b6618-7157-4e05-b4a3-c5fee52745ac",
+                    "label": "healthIcon_78",
+                    "x": 134,
+                    "y": -25,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "75db76c7-9910-4484-b1a9-8c7ff2f13317",
+                    "label": "healthIcon_79",
+                    "x": 134,
+                    "y": -87,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "58a1d03d-5332-49fc-b9a2-3449a8b325d0",
+                    "label": "healthIcon_80",
+                    "x": 202,
+                    "y": -87,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "797b87e4-f56e-44c4-878f-15373bae356a",
+                    "label": "healthIcon_81",
+                    "x": 92,
+                    "y": -21,
+                    "text": "1",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "94ae3f44-6617-4c5b-93a5-948232549e4b",
+                    "label": "healthIcon_82",
+                    "x": 23,
+                    "y": -24,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "fe3bf784-af7c-4a20-addc-ce7b218fd220",
+                    "label": "healthIcon_83",
+                    "x": 26,
+                    "y": -87,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "2def7c71-b787-48b7-821f-eff62b6252c3",
+                    "label": "healthIcon_84",
+                    "x": 92,
+                    "y": -88,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "40c8fe59-c93f-4674-b71d-95245250b730",
+                    "label": "healthIcon_85",
+                    "x": -15,
+                    "y": -25,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "d47f31c1-cbed-4120-884a-6a7b9bffd393",
+                    "label": "healthIcon_86",
+                    "x": -82,
+                    "y": -87,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "2bc3a9d3-2e40-40d9-a660-4f1ee84aaa1a",
+                    "label": "healthIcon_87",
+                    "x": -17,
+                    "y": -91,
+                    "text": "2",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "560c3251-c22b-4e34-86c1-d3e0eca37b22",
+                    "label": "healthIcon_88",
+                    "x": -86,
+                    "y": -27,
+                    "text": "3",
+                    "fontFamily": "Whacky_Joe_Monospaced",
+                    "fontSize": "12px",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5,
+                    "backgroundColor": ""
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "8fe57f35-020b-436e-ad6f-9253c00c299f",
+            "label": "UnitsContainer",
+            "scope": "CLASS",
+            "x": -690,
+            "y": -151,
+            "list": [
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "39ff8e1c-2182-4e98-9405-12d7abd32696",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "UnitID",
+                        "RoleID"
+                    ],
+                    "label": "CavemanUnit",
+                    "scope": "CLASS",
+                    "UnitID": 2,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 34,
+                    "hitArea.height": 54,
+                    "texture": {
+                        "key": "CavemanUnit"
+                    },
+                    "x": 548,
+                    "y": 101,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "9a700104-455c-41ec-8ae7-f10a723c7cef",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.x",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.shape",
+                        "hitArea.y",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "ImageProp",
+                        "CurrentHealth",
+                        "UnitID"
+                    ],
+                    "label": "DaggerGuy",
+                    "scope": "CLASS",
+                    "UnitID": 3,
+                    "CurrentHealth": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 43,
+                    "hitArea.height": 48,
+                    "texture": {
+                        "key": "DaggerGuy"
+                    },
+                    "x": 345,
+                    "y": 107,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "6de03b15-cb2d-4e4d-a702-840cc54bc485",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "UnitID",
+                        "CurrentHealth",
+                        "ImageProp",
+                        "RoleID"
+                    ],
+                    "label": "ExplodingGuy",
+                    "scope": "CLASS",
+                    "UnitID": 4,
+                    "CurrentHealth": 1,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 43,
+                    "hitArea.height": 55,
+                    "texture": {
+                        "key": "ExplodingGuy"
+                    },
+                    "x": 614,
+                    "y": 99,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "f18d22cb-0d88-45c3-8fd2-4d4c94a3b7f5",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "UnitID",
+                        "CurrentHealth",
+                        "ScaleUnitY",
+                        "ScaleUnitX",
+                        "RoleID"
+                    ],
+                    "label": "Knight",
+                    "scope": "CLASS",
+                    "UnitID": 6,
+                    "CurrentHealth": 3,
+                    "ScaleUnitX": 1.6,
+                    "ScaleUnitY": 1.6,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 62,
+                    "hitArea.height": 68,
+                    "texture": {
+                        "key": "Knight"
+                    },
+                    "x": 708,
+                    "y": 85,
+                    "scaleX": 1.6,
+                    "scaleY": 1.6
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "5b89784b-290a-466f-aa33-39bfd34b2310",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "scaleX",
+                        "scaleY",
+                        "UnitID",
+                        "CurrentHealth",
+                        "ScaleUnitY",
+                        "ScaleUnitX",
+                        "ImageProp"
+                    ],
+                    "label": "LaserCannon",
+                    "scope": "CLASS",
+                    "UnitID": 8,
+                    "CurrentHealth": 3,
+                    "ScaleUnitX": 1.4,
+                    "ScaleUnitY": 1.4,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 83,
+                    "hitArea.height": 38,
+                    "texture": {
+                        "key": "LazerCanon"
+                    },
+                    "x": 244,
+                    "y": 114,
+                    "scaleX": 1.4,
+                    "scaleY": 1.4
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "8ce67943-7a3f-4eed-a73b-c53c77a0abe0",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "scaleX",
+                        "scaleY",
+                        "UnitID",
+                        "CurrentHealth",
+                        "ScaleUnitY",
+                        "ScaleUnitX",
+                        "RoleID"
+                    ],
+                    "label": "FuturisticMech",
+                    "scope": "CLASS",
+                    "UnitID": 5,
+                    "CurrentHealth": 13,
+                    "ScaleUnitX": 1,
+                    "ScaleUnitY": 1,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 111,
+                    "hitArea.height": 106,
+                    "texture": {
+                        "key": "MechanizedMech"
+                    },
+                    "x": 821,
+                    "y": 88,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "b3bd3ae4-97fb-45e4-9343-564b096e5b4a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ScaleUnitY",
+                        "ScaleUnitX",
+                        "RoleID"
+                    ],
+                    "label": "Tank",
+                    "scope": "CLASS",
+                    "UnitID": 9,
+                    "CurrentHealth": 6,
+                    "ScaleUnitX": 1.3,
+                    "ScaleUnitY": 1.3,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 87,
+                    "hitArea.height": 67,
+                    "texture": {
+                        "key": "Tank"
+                    },
+                    "x": 937,
+                    "y": 94,
+                    "scaleX": 1.3,
+                    "scaleY": 1.3
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "5442da3a-2c42-44ef-ad9d-0ec40d713ea6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "scaleX",
+                        "scaleY",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ScaleUnitX",
+                        "ScaleUnitY",
+                        "ImageProp"
+                    ],
+                    "label": "ReadyVolcano",
+                    "scope": "CLASS",
+                    "UnitID": 10,
+                    "CurrentHealth": 10,
+                    "ScaleUnitX": 1.05,
+                    "ScaleUnitY": 1.05,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 112,
+                    "hitArea.height": 81,
+                    "texture": {
+                        "key": "ReadyVolcano"
+                    },
+                    "x": 118,
+                    "y": 97,
+                    "scaleX": 1.05,
+                    "scaleY": 1.05
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "8536cbe1-e1d3-4e0f-96aa-97a5f8272404",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "scaleX",
+                        "scaleY",
+                        "ImageProp",
+                        "CurrentHealth",
+                        "UnitID"
+                    ],
+                    "label": "BarbedWall",
+                    "scope": "CLASS",
+                    "UnitID": 16,
+                    "CurrentHealth": 5,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 58,
+                    "hitArea.height": 73,
+                    "texture": {
+                        "key": "BarbedWall"
+                    },
+                    "x": 0,
+                    "y": 99,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "497c027f-10b0-4e6a-a441-ac195a0c4153",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ScaleUnitX",
+                        "ScaleUnitY",
+                        "ImageProp",
+                        "RoleID"
+                    ],
+                    "label": "TrexRider",
+                    "scope": "CLASS",
+                    "UnitID": 15,
+                    "CurrentHealth": 15,
+                    "ScaleUnitX": 1.3,
+                    "ScaleUnitY": 1.3,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 76,
+                    "hitArea.height": 79,
+                    "texture": {
+                        "key": "TrexRider"
+                    },
+                    "x": 1044,
+                    "y": 88,
+                    "scaleX": 1.3,
+                    "scaleY": 1.3
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "eab09933-09bd-446e-9a7e-ac88c03e61d7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ImageProp"
+                    ],
+                    "label": "Sniper",
+                    "scope": "CLASS",
+                    "UnitID": 13,
+                    "CurrentHealth": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 47,
+                    "hitArea.height": 52,
+                    "texture": {
+                        "key": "Sniper"
+                    },
+                    "x": 477,
+                    "y": 104,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "bf2b5312-333e-463d-affc-512e68686cca",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "scaleX",
+                        "scaleY",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ScaleUnitX",
+                        "ScaleUnitY",
+                        "ImageProp"
+                    ],
+                    "label": "SecuritySystem",
+                    "scope": "CLASS",
+                    "UnitID": 11,
+                    "CurrentHealth": 8,
+                    "ScaleUnitX": 1.6,
+                    "ScaleUnitY": 1.6,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 65,
+                    "hitArea.height": 67,
+                    "texture": {
+                        "key": "SecuritySystem"
+                    },
+                    "x": 247,
+                    "y": 0,
+                    "scaleX": 1.6,
+                    "scaleY": 1.6
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "6bf7a075-5b2d-419a-8dd9-5e864ba2347a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ImageProp",
+                        "RoleID"
+                    ],
+                    "label": "Soldier",
+                    "scope": "CLASS",
+                    "UnitID": 14,
+                    "CurrentHealth": 2,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 30,
+                    "hitArea.height": 52,
+                    "texture": {
+                        "key": "Soldier"
+                    },
+                    "x": 550,
+                    "y": 1,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "0c4905d2-574e-4682-818a-a0b1781183bb",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "hitArea.x",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.y",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "UnitID",
+                        "ImageProp",
+                        "ScaleUnitX",
+                        "ScaleUnitY"
+                    ],
+                    "label": "TurretUnit",
+                    "scope": "CLASS",
+                    "UnitID": 1,
+                    "ScaleUnitX": 0.25,
+                    "ScaleUnitY": 0.25,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 344,
+                    "hitArea.height": 328,
+                    "texture": {
+                        "key": "TurretUnit"
+                    },
+                    "x": 404,
+                    "y": 118,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "b82254e3-d059-40d4-9aab-c338b9dea408",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.shape",
+                        "hitArea.x",
+                        "hitArea.y",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ImageProp",
+                        "RoleID"
+                    ],
+                    "label": "ShieldWall",
+                    "scope": "CLASS",
+                    "UnitID": 12,
+                    "CurrentHealth": 8,
+                    "RoleID": 2,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 82,
+                    "hitArea.height": 68,
+                    "texture": {
+                        "key": "ShieldWall"
+                    },
+                    "x": 1166,
+                    "y": 83,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "prefabId": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+                    "id": "976d5d2e-812a-462b-b63c-a1b94cd5cee4",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "hitArea.x",
+                        "hitArea.width",
+                        "hitArea.height",
+                        "hitArea.shape",
+                        "hitArea.y",
+                        "hitArea.radius",
+                        "hitArea.points",
+                        "hitArea.alphaTolerance",
+                        "texture",
+                        "CurrentHealth",
+                        "UnitID",
+                        "ImageProp"
+                    ],
+                    "label": "Mine",
+                    "scope": "CLASS",
+                    "UnitID": 7,
+                    "CurrentHealth": 1,
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": 0,
+                    "hitArea.y": 0,
+                    "hitArea.width": 43,
+                    "hitArea.height": 48,
+                    "texture": {
+                        "key": "Mine"
+                    },
+                    "x": 378,
+                    "y": 44,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "d8f3679e-eb9d-49ec-9b08-6c19967b1aa4",
+            "label": "TilesSquares",
+            "objectIds": [
+                "324f5227-fc69-4a0b-bdd4-68f542fc0378",
+                "881bf229-4ced-4ba1-ac10-da75dbde648a",
+                "d9cbb171-3ca6-469a-94a2-3c269bf01236",
+                "81e1728f-1f91-40c2-9d45-11b6b7b5096e",
+                "91455e45-d99e-4202-8d99-526fa62f6f5d",
+                "b501591f-5739-479b-9d79-ab62d920f232",
+                "bb801337-cf24-48ec-a8cc-d9197bfa4cd8",
+                "fcff4464-feb5-4079-844b-512cb3ac8391",
+                "2f9abcac-f0cf-4444-a08b-9823efd7b793",
+                "6074001a-19c3-4b59-8b02-955f79e6d0df",
+                "0d08c5b3-3a9d-47b0-909e-a0e90ddb4a2c",
+                "889e97e6-2130-44fe-84e3-4789fe80f289",
+                "b9b774ef-669a-42a4-bb65-863827601229",
+                "e21cdf8a-4475-4383-8953-e522689301c4",
+                "dbeaa259-ff70-4353-8a7e-b5ce026af472",
+                "5585c6cb-1648-421e-ac98-8e4923f24555",
+                "33131ff9-784f-4679-9d13-47403afe5bbe",
+                "338b995f-8406-49f2-b320-69d72ffa0ddc",
+                "ec700af8-ba10-42b2-8ccd-6aeca9498d2b",
+                "9a8c7241-3d84-41b9-a758-aff620b6384d",
+                "ce6e2c93-b7b2-450e-bc76-1c8cef4a3480",
+                "ea426369-b060-4d5e-b4f7-984d3c033f45",
+                "d84e2eb1-ded0-4a24-89bd-0aaa4c68591b",
+                "1e67737a-b064-4e10-83c9-cd8c166d53cb",
+                "af20afc6-3e36-4c2c-839d-dd51cff2ce6c",
+                "9bd6fdb0-3b55-4431-9600-a3371656d980",
+                "6adb060e-d023-45e0-8fdf-f014e98d636f",
+                "0df95832-3a1f-4758-be02-4bf678b2f018",
+                "c5f4cc08-48b0-4032-8005-fdedc58d9d89",
+                "1e70f481-77e1-4fb5-a815-37bd732bf689",
+                "6400a08b-eb87-4b43-9e49-a77315b51d86",
+                "fcf1c204-95ce-492f-bf58-72808fd6dd98",
+                "9e55f89f-7c99-4f96-a97e-292aac303097",
+                "a161b802-7c26-4fd0-b05e-b02c145fd265",
+                "0c3faab5-8847-4401-a147-f599f90ffa15",
+                "eeabdd42-2832-4bac-83ca-bc57d85cd59c",
+                "0d0b79ad-abb9-4858-b1aa-1b56c6ebef57",
+                "fdf851e5-3d4b-46a0-8bbd-00b74baf53c4",
+                "c0daeec4-2d8f-48e8-841e-c4f0a6efe983",
+                "fd926add-5a17-4638-bb6d-048f8248fe63",
+                "d969b4cf-7cca-43e7-8d9c-992ef970e516",
+                "e214dfb1-72a8-482e-a2bf-7d771423b6f9",
+                "9cefd9fe-1b13-40ae-baa9-a06178ab272d",
+                "e77e5ed9-6e31-4ab6-8cab-044365bb6c31",
+                "8f764d9e-c31d-47c5-b666-0e7903ce24c2",
+                "606fd1c6-7fdf-4cc8-ac65-5b466086fc6c",
+                "c4f7b816-e98c-4445-aab4-f9d131fb250f",
+                "85fa75a2-df40-4222-ad72-41c4608743d6"
+            ]
+        },
+        {
+            "id": "3f729484-2189-4352-bd17-5bef5e91712b",
+            "label": "UnitsList",
+            "objectIds": [
+                "d9d0ee64-1399-43b2-a29a-74a1eceeef71",
+                "3a4ebe02-81ca-48e7-9aab-09caf327c6cc",
+                "c37cafe9-1a4f-4aac-9744-36e6bb6d4981",
+                "d04b7ae7-aa7a-4ec6-bfe4-6042b12728ff",
+                "83108381-5e98-4b8e-aec4-7ea166e320ba",
+                "4f77b76d-4ab2-46c6-8857-3572a3d7ad16",
+                "9241aa8a-e351-494c-a3cd-808fa5f19b90",
+                "234f8b9c-8899-4166-aa75-0db763e59883",
+                "19188585-47a3-432e-bcc1-7a63e59b950a",
+                "ff3c0cee-9404-4eae-95b2-3c38d5a40964",
+                "ff9ffa66-f8e4-48e2-ac67-5782e2378ddc",
+                "5d245701-5d4c-479d-b3de-31de8ddea031",
+                "3e457b74-8b80-4f57-bae9-bd56b67085e3",
+                "68f2cf7b-168b-4049-ad00-ea556943332f",
+                "2df2de7e-99e2-43d3-80ef-e2ea932a035c",
+                "4d53f138-b9e5-4b8b-9dad-5d19d3772fad"
+            ]
+        },
+        {
+            "id": "f62ecdde-f139-497b-9092-c3761750fc7e",
+            "label": "UnitsStorage",
+            "objectIds": [
+                "39ff8e1c-2182-4e98-9405-12d7abd32696",
+                "b82254e3-d059-40d4-9aab-c338b9dea408",
+                "976d5d2e-812a-462b-b63c-a1b94cd5cee4",
+                "9a700104-455c-41ec-8ae7-f10a723c7cef",
+                "6de03b15-cb2d-4e4d-a702-840cc54bc485",
+                "0c4905d2-574e-4682-818a-a0b1781183bb",
+                "6bf7a075-5b2d-419a-8dd9-5e864ba2347a",
+                "bf2b5312-333e-463d-affc-512e68686cca",
+                "eab09933-09bd-446e-9a7e-ac88c03e61d7",
+                "497c027f-10b0-4e6a-a441-ac195a0c4153",
+                "5442da3a-2c42-44ef-ad9d-0ec40d713ea6",
+                "b3bd3ae4-97fb-45e4-9343-564b096e5b4a",
+                "8ce67943-7a3f-4eed-a73b-c53c77a0abe0",
+                "5b89784b-290a-466f-aa33-39bfd34b2310",
+                "f18d22cb-0d88-45c3-8fd2-4d4c94a3b7f5",
+                "8536cbe1-e1d3-4e0f-96aa-97a5f8272404"
+            ]
+        },
+        {
+            "id": "de6909ca-3288-419c-b88c-62ab632e21e5",
+            "label": "UnitInTileboard"
+        },
+        {
+            "id": "3e061170-75a9-42c8-9bd7-d2e63a0eaf26",
+            "label": "HealthIconList"
+        }
+    ]
+}

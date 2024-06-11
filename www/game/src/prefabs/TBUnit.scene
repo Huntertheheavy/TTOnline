@@ -1,0 +1,95 @@
+{
+    "id": "61208e45-f1e3-48dd-bb45-fea47f1c2b85",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3737444b-4002-4c91-a6fa-136ead58b8d0",
+            "label": "cavemanUnit",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 34,
+            "hitArea.height": 54,
+            "texture": {
+                "key": "CavemanUnit"
+            },
+            "x": 645,
+            "y": 367
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "UnitID",
+            "label": "Unit_ID",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "CurrentHealth",
+            "label": "CurrentHealth",
+            "tooltip": "",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "ScaleUnitX",
+            "label": "ScaleX",
+            "tooltip": "",
+            "defValue": 1.5,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "ScaleUnitY",
+            "label": "ScaleY",
+            "tooltip": "",
+            "defValue": 1.5,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "Tileboard_ID",
+            "label": "TB_ID",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": true,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "RoleID",
+            "label": "RoleOfUnit",
+            "tooltip": "",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

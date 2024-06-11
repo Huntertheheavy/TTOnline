@@ -1,10 +1,9 @@
 const mysql = require('mysql2');
 const connection = mysql.createConnection({
-    host: "ode.h.filess.io",
-    user: "TimelineTyrants2_liquiddeep",
-    password: "yourmom",
-    database: "TimelineTyrants2_liquiddeep", // Schema name 
-    port: "3307"
+    host: "localhost",
+    user: "root",
+    password: "Dinossauro03",
+    database: "timeline_tyrants_db" // Schema name 
 });
 
 module.exports = connection
