@@ -2,11 +2,9 @@ const express = require('express')
 const router = express.Router();
 const connection = require('../database')
 function CreateMatch(res,req){
-    const now = new Date();
-    const day = now.getDay();
     var playerID = req.session.PlayerID;
     connection.execute('INSERT INTO match_ (Match_GameStateID, Turn) VALUES (?,?)',
-    [day,day,2,1],
+    [2,1],
     function(err,result1,fields){
         if (err){
             res.status(400).send({
