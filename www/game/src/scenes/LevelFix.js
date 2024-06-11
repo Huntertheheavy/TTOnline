@@ -1761,6 +1761,7 @@ class LevelFix extends Phaser.Scene {
 		xhttp.onreadystatechange = function(){
 			if (this.readyState == 4){
 				var response = JSON.parse(this.responseText)
+				console.log(response)
 				if (xhttp.status == 200){
 				ThisScene.turnmessage.text = response.log
 				ThisScene.ResourcesText.text = response.Resources
