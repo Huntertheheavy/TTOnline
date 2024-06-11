@@ -215,7 +215,7 @@ function PlaceCard(response,MatchID,PlayerID,CardID,Location,RemainingR){
             }else{
                 MaxHealth = results[0].Health
                 connection.execute('INSERT INTO tileboard (CurrentHealth, CardID, LocationID, MatchID, UserID) VALUES (?,?,?,?,?)',
-                [MaxHealth, CardID, location, MatchID, PlayerID],
+                [MaxHealth, CardID, Location, MatchID, PlayerID],
                 function (err, results, fields) {
                 if (err){
                     response.status(400).send({"log": "Error: "+ err});
