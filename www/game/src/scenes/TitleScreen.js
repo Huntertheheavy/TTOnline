@@ -433,21 +433,3 @@ this.time.addEvent({
 }
 
 /* END OF COMPILED CODE */
-
-
-this.originalRedThingyY = red_thingy.y;
-this.originalBlueThingyY = blue_thingy.y;
-
-this.time.addEvent({
-	delay: 4100,
-	callback: this.resetThingiesY,
-	callbackScope: this,
-	loop: true
-});
-
-this.time.addEvent({
-	delay: 2000,
-	callback: this.spotRespawn,
-	callbackScope: this,
-	loop: true
-});
