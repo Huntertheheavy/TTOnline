@@ -5,7 +5,7 @@ function CreateMatch(res,req){
     const now = new Date();
     const day = now.getDay();
     var playerID = req.session.PlayerID;
-    connection.execute('INSERT INTO match_ (DateStarted, DateStopped, Match_GameStateID, Turn) VALUES (?,?,?,?)',
+    connection.execute('INSERT INTO match_ (Match_GameStateID, Turn) VALUES (?,?)',
     [day,day,2,1],
     function(err,result1,fields){
         if (err){
